@@ -7,9 +7,15 @@
 # 2.第三方库的安装
 * 打开cmd 输入
 'pip install wordcloud'
-如果失败
-* 下载whl whl放在C:\ProgramData\Anaconda3\Scripts文件下 shift+右键空白处
-打开cmd 输入 'pip install 文件名.whl'
+* 如果失败
+  下载whl whl放在C:\ProgramData\Anaconda3\Scripts文件下 shift+右键空白处
+* 下载速度慢：使用国内源
+  1、Linux，修改 ~/.pip/pip.conf (没有就创建一个)， 修改 index-url至tuna，内容如下：
+  [global]
+  index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+  2、Windows，直接在user目录中创建一个pip目录，如：C:\Users\xx\pip，新建文件pip.ini，内容如下：
+  [global]
+  index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 
 # 3.中文显示问题
 * 简单方法
