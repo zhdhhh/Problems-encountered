@@ -1,5 +1,5 @@
 # 1. 重装系统后Anaconda3环境变量的设置
-* 右键此电脑-属性-高级系统设置-环境变量-Path-分别新建三个-
+* 右键此电脑-属性-高级系统设置-环境变量-Path-分别新建三个-每一个用;号隔开
 * C:\ProgramData\Anaconda3
 * C:\ProgramData\Anaconda3\Library\bin
 * C:\ProgramData\Anaconda3\Scripts
